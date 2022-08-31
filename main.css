@@ -40,8 +40,8 @@
 
   /* APP BACKGROUND */
     --themeColor1: rgb(187, 150, 230);
-    --themeColor2: #5B86E5;
-    //--customFont: 'Pacifico', sans-serif;
+    --themeColor2: #7aa1f5;
+    /*--customFont: 'Pacifico', sans-serif; */
     --font-display: var(--customFont);
     --homeImage: url('https://bd.vanillyneko.com/1.png');
     --homeImageSize: cover;
