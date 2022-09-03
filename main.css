@@ -8,11 +8,11 @@
 **/
 
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url("https://codedotspectra.github.io/themes/core/settings-icons.css");
-@import url("https://codedotspectra.github.io/themes/core/badges.css");
-@import url("https://codedotspectra.github.io/themes/core/custom-font.css");
-@import url("https://codedotspectra.github.io/themes/core/hljs.css");
-@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url("https://bd.vanillyneko.com/settings-icons.css");
+@import url("https://bd.vanillyneko.com/badges.css");
+@import url("https://bd.vanillyneko.com/custom-font.css");
+@import url("https://bd.vanillyneko.com/hljs.css");
+@import url("https://bd.vanillyneko.com/user-tags.css");
 
 :root {
   /* ACCENT COLORS */
