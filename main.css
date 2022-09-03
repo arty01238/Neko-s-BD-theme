@@ -8,7 +8,6 @@
 **/
 
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 @import url("https://codedotspectra.github.io/themes/core/settings-icons.css");
 @import url("https://codedotspectra.github.io/themes/core/badges.css");
 @import url("https://codedotspectra.github.io/themes/core/custom-font.css");
@@ -18,7 +17,7 @@
 :root {
   /* ACCENT COLORS */
   --main-color: #2780e6; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-  --hover-color: #1e63b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --hover-color: #2066b6; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
   --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
   --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
@@ -33,7 +32,7 @@
   /* GENERAL */
   --main-font: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
-  --text-normal: rgb(220, 221, 222); /* color of default discord text */
+  --text-normal: rgb(232, 232, 233); /* color of default discord text */
   --text-muted: rgb(114, 118, 125); /* color of default discord muted text (e.g.text found in input fields before typing).*/
   --channels-width: 220px; /* channel list width (240px for Discord default) [default: 220px] */
   --members-width: 240px; /* member list width [default: 240px] */
@@ -41,19 +40,19 @@
   /* APP BACKGROUND */
     --themeColor1: rgb(187, 150, 230);
     --themeColor2: #7aa1f5;
-    /*--customFont: 'Pacifico', sans-serif; */
+    --customFont: 'Pacifico', sans-serif;
     --font-display: var(--customFont);
     --homeImage: url('https://bd.vanillyneko.com/1.png');
     --homeImageSize: cover;
-    --backgroundColor: #0d0d0d;
+    --backgroundColor: #000000;
     --backgroundImage: url('https://bd.vanillyneko.com/VNTheme.bg.jpg');
     --backgroundPosition: center;
     --backgroundSize: cover;
     --backgroundRepeat: no-repeat;
     --backgroundBlur: 3px;
     --backgroundOpacity: .35;
-    --backgroundCode: rgba(0,0,0,.5);
-    --backgroundName: rgba(0,0,0,.5); 
+    --backgroundCode: rgba(0, 0, 0, 0.5);
+    --backgroundName: rgba(0, 0, 0, 0.5); 
 
   /* HOME BUTTON ICON */
   --home-icon: url(https://bd.vanillyneko.com/1.jpg);
@@ -63,7 +62,7 @@
   /* CHANNEL COLORS */
   --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
   --channel-color: rgba(93, 52, 131, 0.616); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
-  --channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
+  --channel-text-selected: rgb(255, 255, 255); /* Selected channel text color, CV default is #fff */
   --muted-color: rgba(255, 255, 255, 0.1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
 
   /* MODAL BACKDROP */
@@ -206,7 +205,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, .05) !important;
+    background: rgba(0, 0, 0, 0.05) !important;
     border: none !important
 }
 
@@ -216,7 +215,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, .5) !important;
+    background: rgba(0, 0, 0, 0.5) !important;
     border-radius: 50px !important;
     border: none !important
 }
@@ -227,12 +226,12 @@ body {
 }
 
 .guildsError-b7zR5H {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.5);
     color: var(--themeColor1)
 }
 
 .childWrapper-1j_1ub {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.5);
     color: var(--themeColor2)
 }
 .childWrapper-1j_1ub:hover {
@@ -258,7 +257,7 @@ body {
 }
 
 .expandedFolderBackground-1cujaW {
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .folder-1hbNCn {
@@ -319,7 +318,7 @@ body {
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG,
 .clickable-28SzVr:hover .layout-1qmrhw,
 .selected-1-Z6gm .layout-1qmrhw {
-    background: rgba(0, 0, 0, .65);
+    background: rgba(0, 0, 0, 0.65);
     position: relative;
     padding-left: 15px
 }
@@ -333,7 +332,7 @@ body {
     width: 20px;
     border-radius: 4px 0 0 4px;
     background: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
-    -webkit-mask: linear-gradient(to right, #000, Transparent);
+    -webkit-mask: linear-gradient(to right, rgb(0, 0, 0), Transparent);
     opacity: .6;
     z-index: 0
 }
@@ -356,13 +355,13 @@ body {
 }
 
 .categoryPill-1zjNrr:hover:not(.selected-bLcqYK) {
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .categoryPill-1zjNrr.selected-bLcqYK {
     background-color: var(--themeColor1);
     color: #fff;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .5)
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5)
 }
 
 .card-2TuZPZ,
@@ -374,7 +373,7 @@ body {
 
 .pageControlContainer-3czZwE .lookFilled-yCfaCM.colorTransparent-13Bvvi {
     background-color: var(--backgroundColor);
-    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, .7)
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.7)
 }
 
 .pageControlContainer-3czZwE .lookFilled-yCfaCM.colorTransparent-13Bvvi:disabled {
@@ -384,13 +383,13 @@ body {
 
 .pageControlContainer-3czZwE .lookFilled-yCfaCM.colorTransparent-13Bvvi:hover {
     background-color: var(--backgroundColor);
-    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .9)
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.9)
 }
 
 .pageControlContainer-3czZwE .activeButton-1BJAiN,
 .pageControlContainer-3czZwE .activeButton-1BJAiN:hover {
     background-color: var(--themeColor1);
-    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, .5)
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5)
 }
 
 .pageControlContainer-3czZwE .roundButton-2CW1Hh {
@@ -419,7 +418,7 @@ body {
 }
 
 .actions-pBaxX6 .action-1lSjCi {
-    background-color: rgba(0, 0, 0, .45)
+    background-color: rgba(0, 0, 0, 0.45)
 }
 
 .actions-pBaxX6 .action-1lSjCi .colorStandard-21JIj7 {
@@ -442,7 +441,7 @@ body {
 .wrapper-NhbLHG:hover .icon-WnO6o2,
 .wrapper-NhbLHG:hover .name-IbjUBS {
     color: var(--themeColor1);
-    text-shadow: 0 1.5px 3px rgba(0, 0, 0, .75)
+    text-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.75)0.75)
 }
 
 .containerDefault-YUSmu3 .content-1gYQeQ {
@@ -453,7 +452,7 @@ body {
 .containerDefault-YUSmu3.selected-37j_iU .modeSelected-3DmyhH:hover .content-1gYQeQ,
 .modeSelected-3DmyhH .content-1gYQeQ,
 .modeSelected-3DmyhH:hover .content-1gYQeQ {
-    background-color: rgba(0, 0, 0, .65);
+    background-color: rgba(0, 0, 0, 0.65);
     position: relative;
     padding-left: 15px
 }
@@ -469,7 +468,7 @@ body {
     width: 20px;
     border-radius: 4px 0 0 4px;
     background: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
-    -webkit-mask: linear-gradient(to right, #000, Transparent);
+    -webkit-mask: linear-gradient(to right, rgb(0, 0, 0), Transparent);
     opacity: .6;
     z-index: 0
 }
@@ -487,24 +486,24 @@ body {
 }
 
 .containerDefault-YUSmu3 .wrapper-NhbLHG:hover .content-1gYQeQ {
-    background-color: rgba(0, 0, 0, .45);
+    background-color: rgba(0, 0, 0, 0.45)0.45);
     padding-left: 12px
 }
 
 .users-i_3-kL {
-    background-color: rgba(0, 0, 0, .35)
+    background-color: rgba(0, 0, 0, 0.35)
 }
 
 .total-3tKGEB {
-    background-color: rgba(0, 0, 0, .75)
+    background-color: rgba(0, 0, 0, 0.75)0.75)
 }
 
 .total-3tKGEB:after {
-    border-right-color: rgba(0, 0, 0, .75)
+    border-right-color: rgba(0, 0, 0, 0.75)
 }
 
 .centerButton-1IShs7 {
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .centerButton-1IShs7:hover,
@@ -519,7 +518,7 @@ body {
 
 .quickSelectPopoutOption-2E2UmS:hover {
     background-color: var(--backgroundColor) !important;
-    box-shadow: inset 0 0 0 1000000px rgba(255, 255, 255, .05)
+    box-shadow: inset 0 0 0 1000000px rgba(255, 255, 255, 0.05)
 }
 
 .friendSelected-3cwmD7,
@@ -530,7 +529,7 @@ body {
 
 .clickable-2ap7je .header-2o-2hj:hover,
 .selected-WP3kCM .header-2o-2hj {
-    background-color: rgba(0, 0, 0, .25)
+    background-color: rgba(0, 0, 0, 0.25)
 }
 
 .descriptionBox-1EKQKL,
@@ -556,11 +555,11 @@ body {
 }
 
 .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {
-    background-color: rgba(0, 0, 0, .7)
+    background-color: rgba(0, 0, 0, 0.7)
 }
 
 .avatarSpeaking-3MqCHL {
@@ -599,11 +598,11 @@ body {
     height: 25px
 }
 
-.typeWindows-2-g3UY {
+.typeWindows-2-g3UY { /* Window Title Bar */
     padding: 5px 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: var(--backgroundColor)
+    background-color: rgba(68, 106, 124, 0.616) /*var(--backgroundColor) */
 }
 
 .typeWindows-2-g3UY::after {
@@ -673,7 +672,7 @@ body {
 }
 
 .divider-2rZFJK {
-    border-top: thin solid rgba(0, 0, 0, .15)
+    border-top: thin solid rgba(0, 0, 0, 0.15)
 }
 
 .content-3spvdd {
@@ -725,7 +724,7 @@ body {
 
 .audioControls-3fmemK,
 .videoControls-2NzHnF {
-    background-color: rgba(0, 0, 0, .75)
+    background-color: rgba(123, 200, 252, 0.2)
 }
 
 .mediaBarGrabber-FvJKJg,
@@ -738,7 +737,7 @@ body {
 .attachment-1PZZB2,
 .embedFull-1HGV2S,
 .wrapper-1HIH0j {
-    background: rgba(0, 0, 0, .65);
+    background: rgba(0, 0, 0, 0.65);
     position: relative;
     overflow: hidden
 }
@@ -791,7 +790,7 @@ body {
 }
 
 .reaction-2A2y9y {
-    background-color: rgba(0, 0, 0, .55)
+    background-color: rgba(0, 0, 0, 0.55)0.55)
 }
 
 .reaction-2A2y9y.reactionMe-3I9gFK {
@@ -900,7 +899,7 @@ body {
 }
 
 .membersGroup-2eiWxl span {
-    text-shadow: 0 1px 5px #000
+    text-shadow: 0 1px 5px rgb(0, 0, 0)
 }
 
 .activity-2EQDZv {
@@ -909,14 +908,14 @@ body {
 
 .clickable-28SzVr:hover .layout-1qmrhw,
 .selected-1-Z6gm .layout-1qmrhw {
-    background-color: rgba(0, 0, 0, .45)
+    background-color: rgba(0, 0, 0, 0.45)
 }
 
 .root-SR8cQa,
 .userPopout-3XzG_A {
-    background-color: rgba(0, 0, 0, .35);
+    background-color: rgba(0, 0, 0, 0.35);
     backdrop-filter: blur(50px);
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .2) !important
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2) !important
 }
 
 .body-3ND3kc,
@@ -927,7 +926,7 @@ body {
 }
 
 .quickMessage-1yeL4E {
-    background-color: rgba(0, 0, 0, .5) !important;
+    background-color: rgba(0, 0, 0, 0.5).5) !important;
     border-color: rgba(0, 0, 0, .6) !important
 }
 
@@ -936,7 +935,7 @@ body {
 }
 
 .note-3kmerW textarea:focus {
-    background-color: rgba(0, 0, 0, .35);
+    background-color: rgba(0, 0, 0, 0.35);
     border-color: rgba(0, 0, 0, .4)
 }
 
@@ -1045,7 +1044,7 @@ body {
 .container-2oNtJn,
 .searchBar-zdmu7v,
 .searchBar-3TnChZ .searchBarComponent-3N7dCG {
-    background-color: rgba(0, 0, 0, .4)
+    background-color: rgba(0, 0, 0, 0.4)
 }
 
 .content-1DpZYB,
@@ -1092,7 +1091,7 @@ body {
 }
 
 .button-12Fmur.enabled-9OeuTA:hover {
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .bd-addon-list .bd-card-footer button,
@@ -1186,7 +1185,7 @@ body {
 }
 
 .sidebarRegion-1VBisG {
-    background-color: rgba(0, 0, 0, .25)
+    background-color: rgba(65, 107, 114, 0.25)
 }
 
 .contentRegion-3HkfJJ {
@@ -1205,7 +1204,7 @@ body {
 
 #bd-settings-sidebar .ui-tab-bar-item:hover,
 .side-2ur1Qk .item-3XjbnG:hover {
-    background-color: rgba(0, 0, 0, .65) !important;
+    background-color: rgba(0, 0, 0, 0.65) !important;
     position: relative;
     padding-left: 40px
 }
@@ -1222,13 +1221,13 @@ div[aria-label=GUILD_SETTINGS] .side-2ur1Qk .item-3XjbnG:hover {
 #bd-settings-sidebar .ui-tab-bar-item.selected,
 .side-2ur1Qk .item-3XjbnG[style*="background-color: rgb(114, 137, 218)"],
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
-    background-color: rgba(0, 0, 0, .65) !important;
+    background-color: rgba(171, 144, 243, 0.65) !important;
     padding-left: 40px;
     color: #fff !important
 }
 
 .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
-    background-color: rgba(0, 0, 0, .65) !important;
+    background-color: rgba(0, 0, 0, 0.65) !important;
     padding-left: 15px
 }
 
@@ -1395,7 +1394,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .bd-switch-body,
 .container-2nx-BQ {
-    background-color: rgba(0, 0, 0, .35) !important
+    background-color: rgba(0, 0, 0, 0.35) !important
 }
 
 .container-2nx-BQ[style*="rgb(59, 165, 92)"] {
@@ -1417,7 +1416,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 .item-2idW98[style*="rgb(114, 137, 218)"] {
     background-color: var(--themeColor1) !important;
     background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
-    border: 1px solid rgba(0, 0, 0, .5) !important
+    border: 1px solid rgba(0, 0, 0, 0.5) !important
 }
 
 .item-2idW98[style*="rgb(114, 137, 218)"] .checkboxWrapper-2fDzaA .checkbox-f1HnKB.checked-1pZh2h {
@@ -1488,7 +1487,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .accountBtn-1YkMgV .accountBtnInner-3XK70s {
-    background-color: rgba(0, 0, 0, .5) !important
+    background-color: rgba(0, 0, 0, 0.5) !important
 }
 
 .defaultIndicator-2ndWks {
@@ -1507,7 +1506,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .card-2gdrYL:hover {
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .progress-1S-TDF {
@@ -1765,7 +1764,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .channelHeader-DFRX8q {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.288);
     border-radius: 8px;
     padding: 12px 16px
 }
@@ -1821,7 +1820,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .autocomplete-3NRXG8 {
-    background-color: var(--backgroundColor) !important
+    background-color: rgba(46, 71, 83, 0.9)/*var(--backgroundColor)*/ !important
 }
 
 .selectorSelected-1_M1WV {
@@ -2071,7 +2070,7 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 }
 
 .searchResultsWrap-5RVOkx div[role=group] .channelName-wvgELL {
-    background-color: rgba(0, 0, 0, .05);
+    background-color: rgba(0, 0, 0, 0.05);
     padding: 8px
 }
 
