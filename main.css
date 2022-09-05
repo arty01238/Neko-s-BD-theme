@@ -42,10 +42,10 @@
     --themeColor2: #7aa1f5;
     --customFont: 'Pacifico', sans-serif;
     --font-display: var(--customFont);
-    --homeImage: url('https://bd.vanillyneko.com/1.png');
+    --homeImage: url('https://media.giphy.com/media/FD6CWy270I8j6/giphy.gif');
     --homeImageSize: cover;
     --backgroundColor: #000000;
-    --backgroundImage: url('https://media.giphy.com/media/FD6CWy270I8j6/giphy.gif'); /*https://bd.vanillyneko.com/VNTheme.bg.jpg*/
+    --backgroundImage: url('https://bd.vanillyneko.com/VNTheme.bg.jpg');
     --backgroundPosition: center;
     --backgroundSize: cover;
     --backgroundRepeat: no-repeat;
