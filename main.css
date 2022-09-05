@@ -1,7 +1,7 @@
 /**
  * @name VanillyNeko
  * @author Leigh Magee
- * @version 0.0.2
+ * @version 0.0.3
  * @description Description
  * @website https://github.com/arty01238
  * @source https://github.com/arty01238/Neko-s-BD-theme
@@ -457,6 +457,10 @@ body {
     padding-left: 15px
 }
 
+.bd-addon-list .bd-addon-header, .bd-addon-list .bd-addon-card {
+    background-color: rgb(78 88 130 / 41%) !important;
+}
+
 .containerDefault-YUSmu3.selected-37j_iU .modeSelected-3DmyhH .content-1gYQeQ::before,
 .modeSelected-3DmyhH .content-1gYQeQ::before,
 .modeSelected-3DmyhH:hover .content-1gYQeQ::before {
@@ -471,6 +475,10 @@ body {
     -webkit-mask: linear-gradient(to right, rgb(0, 0, 0), Transparent);
     opacity: .6;
     z-index: 0
+}
+
+.card-2TuZPZ, .emojiContainer-1u-_sQ, .emptyContainer-poti7J, .iconMask-2fMR98 {
+    background-color: rgba(78, 88, 130, 0) !important;
 }
 
 .modeSelected-3DmyhH .content-1gYQeQ::after {
