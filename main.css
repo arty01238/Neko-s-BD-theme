@@ -1,18 +1,18 @@
 /**
  * @name VanillyNeko
  * @author Leigh Magee
- * @version 0.0.1
+ * @version 0.0.2
  * @description Description
  * @website https://github.com/arty01238
  * @source https://github.com/arty01238/Neko-s-BD-theme
 **/
 
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url("https://bd.vanillyneko.com/settings-icons.css");
-@import url("https://bd.vanillyneko.com/badges.css");
-@import url("https://bd.vanillyneko.com/custom-font.css");
-@import url("https://bd.vanillyneko.com/hljs.css");
-@import url("https://bd.vanillyneko.com/user-tags.css");
+@import url("https://codedotspectra.github.io/themes/core/settings-icons.css");
+@import url("https://codedotspectra.github.io/themes/core/badges.css");
+@import url("https://codedotspectra.github.io/themes/core/custom-font.css");
+@import url("https://codedotspectra.github.io/themes/core/hljs.css");
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 
 :root {
   /* ACCENT COLORS */
@@ -1168,11 +1168,19 @@ body {
     color: #fff !important
 }
 
+.channelTextArea-1FufC0, .scrollableContainer-15eg7h {
+    background-color: #d88eff29;
+}
+
 .lookOutlined-3yKVGo.colorRed-rQXKgM {
     background-color: #e60000;
     background-image: linear-gradient(to bottom right, #e60000, #f30);
     border-color: transparent;
     color: #fff
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G {
+    background: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
 }
 
 .closeButton-PCZcma {
