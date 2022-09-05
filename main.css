@@ -445,7 +445,7 @@ body {
 .wrapper-NhbLHG:hover .icon-WnO6o2,
 .wrapper-NhbLHG:hover .name-IbjUBS {
     color: var(--themeColor1);
-    text-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.75)0.75)
+    text-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.75); /*edited*/
 }
 
 .containerDefault-YUSmu3 .content-1gYQeQ {
@@ -498,7 +498,7 @@ body {
 }
 
 .containerDefault-YUSmu3 .wrapper-NhbLHG:hover .content-1gYQeQ {
-    background-color: rgba(0, 0, 0, 0.45)0.45);
+    background-color: rgba(0, 0, 0, 0.45);/*edited*/
     padding-left: 12px
 }
 
@@ -507,7 +507,7 @@ body {
 }
 
 .total-3tKGEB {
-    background-color: rgba(0, 0, 0, 0.75)0.75)
+    background-color: rgba(0, 0, 0, 0.75); /*edited*/
 }
 
 .total-3tKGEB:after {
@@ -802,7 +802,7 @@ body {
 }
 
 .reaction-2A2y9y {
-    background-color: rgba(0, 0, 0, 0.55)0.55)
+    background-color: rgba(0, 0, 0, 0.55);/*edited*/
 }
 
 .reaction-2A2y9y.reactionMe-3I9gFK {
@@ -938,7 +938,7 @@ body {
 }
 
 .quickMessage-1yeL4E {
-    background-color: rgba(0, 0, 0, 0.5).5) !important;
+    background-color: rgba(0, 0, 0, 0.5) !important; /*edited*/
     border-color: rgba(0, 0, 0, .6) !important
 }
 
