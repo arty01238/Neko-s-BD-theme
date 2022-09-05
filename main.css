@@ -264,6 +264,10 @@ body {
     background-color: var(--backgroundColor);
 }
 
+.tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .tutorialContainer-1pL9QS .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background-color: rgb(187 150 230 / 0%) !important;
+}
+
 .wrapper-21YSNc[aria-expanded=true] .listItem-2P_4kh .folder-21wGz3 {
     background-color: rgba(0, 0, 0, 0)
 }
