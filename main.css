@@ -1,7 +1,7 @@
 /**
  * @name VanillyNeko
  * @author Leigh Magee
- * @version 0.0.3
+ * @version 0.0.4
  * @description Description
  * @website https://github.com/arty01238
  * @source https://github.com/arty01238/Neko-s-BD-theme
@@ -191,7 +191,7 @@ body {
 
 .tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
 .tutorialContainer-1pL9QS .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-    background-color: transparent !important;
+    background-color: var(--themeColor1) !important;
 }
 
 .tutorialContainer-1pL9QS .childWrapper-1j_1ub > svg,
@@ -231,11 +231,11 @@ body {
 }
 
 .childWrapper-1j_1ub {
-    background-color: transparent;
-    color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--themeColor2)
 }
 .childWrapper-1j_1ub:hover {
-    background-color: transparent !important;
+    background-color: var(--themeColor2) !important;
     color: #fff;
 }
 
@@ -265,7 +265,7 @@ body {
 }
 
 .tutorialContainer-1pL9QS .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .tutorialContainer-1pL9QS .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-    background-color: transparent !important;
+    background-color: rgb(187 150 230 / 0%) !important;
 }
 
 .wrapper-21YSNc[aria-expanded=true] .listItem-2P_4kh .folder-21wGz3 {
@@ -1311,6 +1311,10 @@ div[aria-label=GUILD_SETTINGS] .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.it
 
 .side-2ur1Qk .header-2Kx1US:first-child {
     padding-top: 19px
+}
+
+.border-2BJQjd.speaking-3RWJBr {
+    box-shadow: inset 0 0 0 2px hsl(268, 62%, 75%, 1);
 }
 
 .sidebar-nqHbhN {
