@@ -8,3 +8,12 @@
 **/
 
 @import url(https://bd.vanillyneko.com/PastelKitten/main.css)
+
+
+/**
+*Uncomment This To Make This Changeable! Home And Background Icons!**/
+
+:root{
+    --backgroundImage: url('https://wallup.net/wp-content/uploads/2019/10/946257-girls-bloomers-bow-brown-hair-bunny-dress-drink-food-fruit-goth-loli-gray-hair-loli-long-hair-panties-ribbons-thighhighs-tinkle-underwear-wristwear.jpg');
+    --homeImage: url('https://swall.teahub.io/photos/small/78-780849_studio-deen-simoun-limone-wallpaper-style-width-loli.jpg');
+}
