@@ -120,6 +120,10 @@ body {
     background-color: var(--backgroundColor) !important
 }
 
+.chatContent-3KubbW {
+    background: none;
+} 
+
 .bg-1QIAus {
     background-color: transparent;
     background-position: var(--backgroundPosition);
