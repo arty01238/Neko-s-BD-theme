@@ -128,6 +128,41 @@ body {
     background-color: var(--backgroundColor) !important
 }
 
+/* members list fix */
+.members-2y1nVj{
+    background: transparent !important;
+}
+.member-2gU6Ar {
+    background: transparent;
+}
+.chat-9g_3Xj{
+    background-color: rgba(0,0,0,.8) !important;
+}
+.membersWrap-3GwLFp{
+    background-color: transparent !important;
+}
+.container-2vWgD2{
+    background-color: transparent !important;
+}
+
+
+/* main chatbox fix */
+.container-3H3gr7{
+    background-color: transparent !important;
+}
+.chatContainer-2XIz4Y{
+    background-color: transparent !important;
+}
+.chatContent-2O4SXb{
+    background-color: transparent !important;
+}
+
+
+/* chatbar fix */
+.channelTextArea-1deLlK{
+    background-color: transparent !important;
+}
+
 .chatContent-3KubbW {
     background: none;
 } 
