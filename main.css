@@ -22,6 +22,14 @@
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
   --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
 
+  /* Transparent Discord */
+  --background-primary: rgba(0, 0, 0, 0);
+  --background-secondary: rgba(0, 0, 0, 0);
+  --background-secondary-alt: rgba(0, 0, 0, 0);
+  --background-tertiary: rgba(0, 0, 0, 0);
+  --background-tertiary-alt: rgba(0, 0, 0, 0);
+  --background-accent: rgba(0, 0, 0, 0);
+  
   /* STATUS COLORS */
   --online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
   --idle-color: #faa61a; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
