@@ -23,12 +23,12 @@
   --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
 
   /* Transparent Discord */
-  --background-primary: rgba(0, 0, 0, 0);
-  --background-secondary: rgba(0, 0, 0, 0);
-  --background-secondary-alt: rgba(0, 0, 0, 0);
-  --background-tertiary: rgba(0, 0, 0, 0);
-  --background-tertiary-alt: rgba(0, 0, 0, 0);
-  --background-accent: rgba(0, 0, 0, 0);
+  --background-primary: transparent !important;
+  --background-secondary: transparent !important;
+  --background-secondary-alt: transparent !important;
+  --background-tertiary: transparent !important;
+  --background-tertiary-alt: transparent !important;
+  --background-accent: transparent !important;
   
   /* STATUS COLORS */
   --online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
