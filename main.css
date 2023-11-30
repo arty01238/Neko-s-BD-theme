@@ -14,6 +14,8 @@
 @import url("https://codedotspectra.github.io/themes/core/hljs.css");**/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
+@import url('https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css');
+@import url('https://raw.githack.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/core.css');
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 
 :root {
@@ -54,7 +56,7 @@
     --font-display: var(--customFont);
     --homeImage: url('https://media.giphy.com/media/FD6CWy270I8j6/giphy.gif');
     --homeImageSize: cover;
-    --backgroundImage: url('https://arty01238.github.io/Neko-s-BD-theme/sailor-moon-wallpaper-22.jpg');
+    --background: url('https://arty01238.github.io/Neko-s-BD-theme/sailor-moon-wallpaper-22.jpg');
     --backgroundPosition: center;
     --backgroundSize: cover;
     --backgroundRepeat: no-repeat;
