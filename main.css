@@ -50,7 +50,7 @@
   /* APP BACKGROUND */
     --themeColor1: rgb(187, 150, 230);
     --themeColor2: #7aa1f5;
-    --customFont: 'Pacifico', sans-serif;
+    --customFont: 'Pacifico';
     --font-display: var(--customFont);
     --homeImage: url('https://media.giphy.com/media/FD6CWy270I8j6/giphy.gif');
     --homeImageSize: cover;
