@@ -54,9 +54,9 @@
     --themeColor2: #7aa1f5;
     --customFont: 'Pacifico';
     --font-display: var(--customFont);
-    --homeImage: url('https://media.giphy.com/media/FD6CWy270I8j6/giphy.gif');
+    --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
     --homeImageSize: cover;
-    --background: url('https://arty01238.github.io/Neko-s-BD-theme/sailor-moon-wallpaper-22.jpg');
+    --background: url('https://vnil.me/spy-x-family-anya-forger-anime-desktop-wallpaper-preview.jpg');
     --backgroundPosition: center;
     --backgroundSize: cover;
     --backgroundRepeat: no-repeat;
@@ -76,17 +76,24 @@
     border-bottom: 2px solid var(--primary3-colour); 
     height: 30px;
     margin: 0px;
-}
-#app-mount .typeWindows__5fa63:after {
-    content: "Anya Theme v1 By VanillyNeko";
-    color: rgb(255,255,255,0.5);
-    font-weight: 500;
 
-    position: absolute;
-    top: 8px;
-    left: 43.2%;
+    #app-mount .typeWindows__5fa63:after {
+        content: "Anya Theme v1 By VanillyNeko";
+        color: rgb(255,255,255,0.5);
+        font-weight: 500;
+    
+        position: absolute;
+        top: 8px;
+        left: 43.2%;
+    }
 }
 
+.tutorialContainer__890ea .childWrapper__01b9c {
+    background: var(--home-icon-image) !important;
+    background-position: var(--home-icon-image-position) !important;
+    background-repeat: no-repeat !important;
+    background-size: var(--home-icon-image-zoom) !important;
+  }
   /* CHANNEL COLORS */
   --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
   --channel-color: rgba(93, 52, 131, 0.616); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
