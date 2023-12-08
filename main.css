@@ -70,6 +70,23 @@
   --home-position: center; /* home button icon position [default: center] */
   --home-size: 40px; /* home button icon size [default: 40px] */
 
+  /*TopBar*/
+  #app-mount .typeWindows__5fa63 {
+    background-color: var(--secondary3-colour); 
+    border-bottom: 2px solid var(--primary3-colour); 
+    height: 30px;
+    margin: 0px;
+}
+#app-mount .typeWindows__5fa63:after {
+    content: "Anya Theme v1 By VanillyNeko";
+    color: rgb(255,255,255,0.5);
+    font-weight: 500;
+
+    position: absolute;
+    top: 8px;
+    left: 43.2%;
+}
+
   /* CHANNEL COLORS */
   --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
   --channel-color: rgba(93, 52, 131, 0.616); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
